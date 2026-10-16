@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+</head>
+<body>
+    <header>
+        <h1>Parcial 1 - Div 132</h1>
+    </header>
+    <main>
+        <h2>Users</h2>
+
+        <div class="contenedorRadio" >
+                <div>
+                    <input type="radio" id="id-active" name="select" value="v-active" >
+                    <label for="id-active"> Active</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="id-inactive" name="select" value="v-inactive" >
+                    <label for="id-inactive"> Inactive</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="id-all" name="select" value="v-all" >
+                    <label for="id-all"> All</label>
+                </div>
+
+        </div>
+
+            <!--Input busqueda-->
+        <div class="contenedorInput">
+            <input class="inputSearch" type=" text" placeholder="Search Users">    
+        </div>
+            <!--Botones-->
+        <div class="contenedorBtn">
+            <button class="btns" id="btnCreate">CREATE</button>
+            <button class="btns" id="btnDeactivate">DEACTIVATE</button>
+            <button class="btns" id="btnResetPassword">RESET PASSWORD</button>
+        </div>
+        
+        <div>
+            <!--Aca va el renderizado-->
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p>
+                Redruello Matias
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="index.js" defer></script>
+</body>
+</html>
